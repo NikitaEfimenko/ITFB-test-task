@@ -63,6 +63,6 @@ npm run build
 - Код должен быть форматирован в соответствии с правилами `ESLint`, `Stylelint`.
 
 - Результат работы должен быть выложен на
-<a href="https://github.com">GitHub</a>
+[GitHub]("https://github.com")
 /
-<a href="https://bitbucket.org">Bitbucket</a>.
+[Bitbucket]("https://bitbucket.org")
