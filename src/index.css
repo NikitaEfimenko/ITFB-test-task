@@ -2,6 +2,213 @@ html {
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.field {
+  position: absolute;
+  width: 1373px;
+  height: 847px;
+}
+
+.grey_field {
+  position: absolute;
+  width: 1379px;
+  height: 551px;
+  left: 20%;
+  top: 184px;
+  background: rgba(196, 196, 196, 0.2);
+}
+
+.mid_block {
+  position: absolute;
+  width: 421.26px;
+  height: 229px;
+  background: #fafafa;
+  box-shadow: 1px 1.2246px 6.12299px rgba(0, 0, 0, 0.2), 1px 3.6738px 4.8984px rgba(0, 0, 0, 0.12), 1px 2.4492px 4.8984px rgba(0, 0, 0, 0.14);
+  border-radius: 2.4492px;
+  margin-left: 477px;
+  margin-top: 196px;
+}
+
+.mid_picture {
+  position: absolute;
+  width: 421px;
+  height: 172px;
+  left: 100px;
+}
+
+#mid_picture {
+  position:absolute;
+  left: 1px;
+}
+
+.mid_like_block {
+  width: 421px;
+  height: 57px;
+  margin-top: 172px;
+
+}
+
+.share_svg {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 376px;
+}
+
+.bookmark_svg {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 329px;
+}
+
+.favorite_svg {
+  position: absolute;
+  margin-top: 18px;
+  margin-left: 276px;
+}
+
+.right_block {
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 907px;
+  width: 344px;
+  height: 187px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+  transform: rotate(-15deg);
+  opacity: 0.7;
+}
+
+.right_picture {
+  position: absolute;
+  width: 344px;
+  height: 132.3px;
+}
+
+.right_like_block {
+  position: absolute;
+  width: 344px;
+  margin-top: 132.3px;
+  filter: blur(1.6px);
+}
+
+.rigth_grey_share_svg {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 310px;
+  transform: rotate(15deg);
+}
+
+.rigth_grey_bookmark_svg {
+  position: absolute;
+  margin-top:16px;
+  margin-left: 275px;
+  transform: rotate(15deg);
+}
+
+.rigth_grey_favorite_svg {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 230px;
+  transform: rotate(15deg);
+}
+
+.left_block {
+  position: absolute;
+  margin-top: 82px;
+  margin-left: 125px;
+  width: 344px;
+  height: 187px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+  transform: rotate(15deg);
+  opacity: 0.7;
+}
+
+.left_picture {
+  position: absolute;
+  width: 344px;
+  height: 132.3px;
+}
+
+.left_like_block {
+  position: absolute;
+  width: 344px;
+  margin-top: 132.3px;
+  filter: blur(1.6px);
+}
+
+.left_grey_share_svg {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 310px;
+  transform: rotate(15deg);
+}
+
+.left_grey_bookmark_svg {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 275px;
+  transform: rotate(15deg);
+}
+
+.left_grey_favorite_svg {
+  position: absolute;
+  margin-top: 16px;
+  margin-left: 230px;
+  transform: rotate(15deg);
+}
+
+.left_blue_btn {
+  position: absolute;
+  left: 831px;
+  right: 1006px;
+  top: 651px;
+  bottom: 10000px;
+  padding:20px;
+/* Primary App Color */
+  background: #2C98F0;
+  border-radius: 2px;
+  font-family:"Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;/* or 171% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.36px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+
+.right_blue_btn {
+  position: absolute;
+  left: 931px;
+  right: 906px;
+  top: 651px;
+  bottom: 10000px;
+  padding: 20px;
+/* Primary App Color */
+  background: #2C98F0;
+  border-radius: 2px;
+
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;/* or 171% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.36px;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+}
+
 *,
 *::after,
 *::before {
